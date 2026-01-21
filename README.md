@@ -2,64 +2,64 @@
 
 ## 1. Actor: Restaurant
 **Feature: Menu Management**
-* **Function:** Manage items (Create, update, delete dishes).
-* **Function:** Manage item details (Prices, descriptions, images).
-* **Function:** Manage availability (Mark items as in/out of stock).
+*  Manage items (Create, update, delete dishes).
+*  Manage item details (Prices, descriptions, images).
+*  Manage availability (Mark items as in/out of stock).
 
 **Feature: Restaurant Profile**
-* **Function:** Manage restaurant information (Address, logo, name).
-* **Function:** Manage settings (Opening/closing hours, preparation time).
+*  Manage restaurant information (Address, logo, name).
+*  Manage settings (Opening/closing hours, preparation time).
 
 **Feature: Business Intelligence**
-* **Function:** View order analytics (Total revenue, order counts).
-* **Function:** View order history (Past orders logs).
+*  View order analytics (Total revenue, order counts).
+*  View order history (Past orders logs).
 
 **Feature: Marketing**
-* **Function:** Create and manage restaurant-specific promo codes.
+*  Create and manage restaurant-specific promo codes.
 
 ---
 
 ## 2. Actor: Customer
 **Feature: Authentication & Account**
-* **Function:** Login and Sign up (Email, phone, social auth).
-* **Function:** Manage Profile (Update name, email).
-* **Function:** Address Management (Add, edit, delete delivery addresses).
-* **Function:** Save Favourite Restaurants.
+*  Login and Sign up (Email, phone, social auth).
+*  Manage Profile (Update name, email).
+*  Address Management (Add, edit, delete delivery addresses).
+*  Save Favourite Restaurants.
 
 **Feature: Browsing Restaurants**
-* **Function:** Browse restaurants (List view, categories).
-* **Function:** View Restaurant Details (Menu, info).
+*  Browse restaurants (List view, categories).
+*  View Restaurant Details (Menu, info).
 
 **Feature: Cart & Ordering**
-* **Function:** Add items to cart.
-* **Function:** Edit cart (Update quantities, remove items).
-* **Function:** Checkout (Review order, select address).
-* **Function:** Place order.
+*  Add items to cart.
+*  Edit cart (Update quantities, remove items).
+*  Checkout (Review order, select address).
+*  Place order.
 
 **Feature: Order Tracking**
-* **Function:** Track active order status (Pending, Preparing, On the way).
-* **Function:** View order history.
+*  Track active order status (Pending, Preparing, On the way).
+*  View order history.
 
 ---
 
 ## 3. Actor: Payment Gateway
 **Feature: Transaction Processing**
-* **Function:** Manage user payment methods.
-* **Function:** Validate transaction details.
-* **Function:** Approve or decline transactions.
+*  Manage user payment methods.
+*  Validate transaction details.
+*  Approve or decline transactions.
 
 ---
 
 ## 4. Actor: System Admin
 **Feature: System Marketing**
-* **Function:** Create system-level promo codes.
-* **Function:** Push notifications (Offers, restaurant alerts).
+*  Create system-level promo codes.
+*  Push notifications (Offers, restaurant alerts).
 
 **Feature: Content Management**
-* **Function:** Manage system categories (Define global tags like Pizza, Burgers, Sushi).
-* **Function:** Vendor Approval (Verify and approve new restaurant sign-ups).
+*  Manage system categories (Define global tags like Pizza, Burgers, Sushi).
+*  Vendor Approval (Verify and approve new restaurant sign-ups).
 
 **Feature: Refund Management**
-* **Function:** Refunds (Manage disputes and issue refunds).
+*  Refunds (Manage disputes and issue refunds).
 
 ---
